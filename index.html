@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Decodificar</title>
 </head>
 <body>
-    <header>TEste eiei</header>
-    <main class="texto-central">
-            <div>
-                <p>Digite um texto aqui.</p>
-                <br>
-            Apenas letras minúsculas e sem acento.
-                <br>
-            <div class="teste">
-                    <button>Criptografar</button>
-                    <button>Descriptografar</button>
+    <header>
+        <img class="logo"  src="imagens/eeeeee.png" alt="Logo do site usando as cores roxo e branco, em forma de circulos">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" id="" cols="41" rows="4" placeholder="digite seu texto"></textarea>
+            <div class="info">
+                <h6>Apenas letras mínusculas e sem acento. </h6>
             </div>
+            <div class="botoes">
+                <button class="btn-encriptar">Criptografar</button>
+                <button class="btn-desencriptar">Descriptografar</button>
             </div>
-            <section class="lateral">
-            AAAAAAAAAAA
-            <br>
-            <input type="text"><button class="botao-lateral">Copiar</button></input>
-            </section>
+        </section>
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
     </main>
+
 </body>
-<script src="teste.js"></script>
+<script src="script.js"></script>
 </html>
