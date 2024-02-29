@@ -32,7 +32,7 @@ main {
 
 .mensagem {
     background: #e5e5e5;
-    background-image: (url(imagens/D_NQ_NP_872167-MLB73119376909_112023-O.webp));
+    background-image: url(imagens/boneco.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -50,4 +50,41 @@ main {
 .botoes {
     display: flex;
     margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.info {
+    color: #495057;
+    font-size: 18px;
 }
