@@ -14,7 +14,6 @@ function btnEncriptar() {
     textArea.value = "";
 }
 
-let matrizCodico = [["e", "enter"] , ["i", "imes"] , ["a" , "ai"] , ["o" , "ober"] , ["u" , "ufat"]];
 
 function encriptar(stringEncriptada) {
     let matrizCodico = [["e", "enter"] , ["i", "imes"] , ["a" , "ai"] , ["o" , "ober"] , ["u" , "ufat"]];
@@ -27,4 +26,15 @@ function encriptar(stringEncriptada) {
     }
 
     return stringEncriptada;
+}
+
+function Desencriptar(stringDesencriptar) {
+    let matrizCodico = [["e", "enter"] , ["i", "imes"] , ["a" , "ai"] , ["o" , "ober"] , ["u" , "ufat"]];
+    stringDesencriptar = stringDesencriptar.toLowerCase();
+    for(let i = 0; i < matrizCodico.length; i++); {
+        if(stringDesencriptar.includes(matrizCodico[i][0])) {
+            stringDesencriptar = stringDesencriptar.replaceAll(matrizCodico[i][0] , matrizCodico[i][0]);
+        }
+    }
+    return stringDesencriptar;
 }
